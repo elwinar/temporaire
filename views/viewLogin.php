@@ -4,29 +4,58 @@
         <meta charset="utf-8">
         <title> TeamDash - Login  </title>
         <link rel="icon" type="image/png" href="../src/images/logo.png">
+        
+        <!-- import stylesheets -->                
+        <link rel="stylesheet" href="../src/stylesheets/login_style.css">
+
+        <!-- import fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet"> 
+
+        <!-- import icons -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+
+        <!-- import scripts -->
+        <script type="text/javascript" src="../src/scripts/login_focus.js"  defer></script>      
+        <script type="text/javascript" src="../src/scripts/login_error.js"  defer></script> 
     </head>    
     <body>
+        <!-- background components -->
         <img id="wave" src="../src/images/wave.png">
-        <div id="login" class="container">
-            <div class="img">
-                <img src="../src/images/login_img.svg">
+        <div class="container">             
+            <div class="login-img">
+                <img id="img" class="float-left" src="../src/images/login_img.svg">
             </div>
-            <div class="login-container">
+            <!-- login form -->
+            <div class="login">
                 <form action="viewLogin.php">
-                    <div class="avatar_container">
-                        <img src="../src/images/male_avatar.svg">
+                    <!-- form header -->                   
+                    <img src="../src/images/male_avatar.svg">
+                    <!-- mail input -->
+                    <div class="input-section first">
+                        <div class="icon">
+                            <i class="fa fa-user" ></i> 
+                        </div>
+                        <div>
+                            <h5> Email </h5>
+                            <input class="input" type="email" autofocus required>
+                        </div>
                     </div>
-                    <div class="container">
-                       <h5> Email </h5>
-                       <input class="input" type="email">
-
-                        <h5> Password </h5>
-                        <input class="input" type="password"> 
-                    </div> 
+                    <!-- password input --> 
+                    <div class="input-section second">
+                        <div class="icon">
+                            <i class="fa fa-lock"></i>
+                        </div>
+                        <div>
+                            <h5> Password </h5>
+                            <input class="input" type="password" required>
+                        </div>       
+                    </div>
+                    <!-- form footer -->
                     <a href="#"> Forgot Password ? </a>
                     <input type="submit" class="btn" value="Login"> 
-                </form>
+                 </form>
             </div>
-        </div>
+        </div>      
     </body>
 </html>
