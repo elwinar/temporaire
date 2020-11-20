@@ -6,7 +6,7 @@
         <link rel="icon" type="image/png" href="/images/logo.png">
         
         <!-- import stylesheets -->                
-        <link rel="stylesheet" href="/scss/login_register">
+        <link rel="stylesheet" href="/scss/login_register.css">
 
         <!-- import fonts --> 
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -52,7 +52,7 @@
                         </div>       
                     </div>
                     <!-- form footer -->
-                    <a href="#"> Forgot Password ? </a>
+                    <a href="register"> Forgot Password ? </a>
                     <input type="submit" class="btn" value="Login"> 
                  </form>
             </div>

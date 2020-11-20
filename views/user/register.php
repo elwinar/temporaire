@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title> TeamDash - Register  </title>
-        <link rel="icon" type="image/png" href="../src/images/logo.png">
+        <link rel="icon" type="image/png" href="/images/logo.png">
         
         <!-- import stylesheets -->                
-        <link rel="stylesheet" href="../src/stylesheets/login_style.css">
+        <link rel="stylesheet" href="/scss/login_register">
 
         <!-- import fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,21 +16,21 @@
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
 
         <!-- import scripts -->
-        <script type="text/javascript" src="../src/scripts/login_focus.js"  defer></script>      
-        <script type="text/javascript" src="../src/scripts/login_error.js"  defer></script> 
+        <script type="text/javascript" src="/js/login_focus.js"  defer></script>      
+        <script type="text/javascript" src="/js/login_error.js"  defer></script> 
     </head>    
     <body>
         <!-- background components -->
-        <img id="wave" src="../src/images/wave.png">
+        <img id="wave" src="/images/wave.png">
         <div class="container">             
             <div class="login-img">
-                <img id="img" class="float-left" src="../src/images/login_img.svg">
+                <img id="img" class="float-left" src="/images/login_img.svg">
             </div>
             <!-- register form -->
             <div class="login">
                 <form action="viewRegister.php">
                     <!-- form header -->                   
-                   <img src="../src/images/male_avatar.svg">
+                   <img src="/images/male_avatar.svg">
                     <!-- mail input -->
                     <div class="input-section first">
                         <div class="icon">
